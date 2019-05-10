@@ -17,6 +17,11 @@ public class CheckUtil {
 		
 		return temp.equals(signature);
 	}
+	/**
+	 * sha1加密
+	 * @param str
+	 * @return
+	 */
 	public static String getSha1(String str) {
 		if (str == null || str.length() == 0) {
 			return null;
