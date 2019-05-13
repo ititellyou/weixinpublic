@@ -7,7 +7,6 @@ public class TextMessage {
 	private String MsgType;
 	private String Content;
 	private String MsgId;
-	
 	public String getToUserName() {
 		return ToUserName;
 	}
@@ -44,4 +43,5 @@ public class TextMessage {
 	public void setMsgId(String msgId) {
 		MsgId = msgId;
 	}
+	
 }
